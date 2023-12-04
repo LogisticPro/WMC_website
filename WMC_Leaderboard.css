@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: transparent;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.header button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    padding: 15px, 0px;
+    margin: 0px;
+    border: transparent;
+}
+.header button:hover {
+    color: rgb(29, 95, 105);
+}
+
+.table1{
+    background-color: azure;
+    color: black;
+    min-height: 50vh;
+    width: 30%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.fulltable{
+    display: flex;
+    padding: 15px;
+}
+
+.table2{
+    background-color: azure;
+    color: black;
+    min-height: 50vh;
+    width: 4%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    list-style: none;
+}
+
+.table3{
+    background-color: azure;
+    color: black;
+    min-height: 50vh;
+    width: 4%;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    list-style: none;
+}
+
+.wallpaper{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://oboitd.ru/images/goods/big/20200226094923_Gorod_2139-M.jpg);
+    background-size: cover;
+}
+
+.rank-top-pannel{
+    min-height: 3vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.rank-top-pannel span{
+    margin-left: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.table-title{
+    margin-left: 200px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div ol li{
+    color: black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div ul{
+    padding: 0px;
+}
+
+div ul li{
+    list-style: none;
+    color: black;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div li span{
+    margin-left: 23px;
+    max-width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div ul span{
+    margin-left: 10px;
+    max-width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,64 @@
+.header{
+    background-color: transparent;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.header button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    padding: 15px, 0px;
+    margin: 0px;
+    border: transparent;
+}
+.header button:hover {
+    color: rgb(29, 95, 105);
+}
+.all-content{
+    width: 95%;
+    height: 500px;
+    display: flex;  
+    margin-left: 30px;
+    margin-top: 60px;
+    justify-content: space-around; 
+}
+.content{
+    width: 30%;
+    height: 500px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.top-side{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://oboitd.ru/images/goods/big/20200226094923_Gorod_2139-M.jpg);
+    background-size: cover;
+}
+.bot-side{
+    min-height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, black, white);
+}
+div ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom-div{
+    color: white;
+    background-color: transparent;
+    display: flex;
+    height: 190px;
+    align-items: center;
+}
+li{
+    margin-bottom: 10px;
+}
